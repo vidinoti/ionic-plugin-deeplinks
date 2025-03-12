@@ -77,6 +77,17 @@
 			</array>
 		</config-file>
 
+		<config-file parent="com.apple.developer.associated-domains" target="*/Entitlements-Release.plist">
+			<array>
+				<string>applinks:$DEEPLINK_HOST</string>
+			</array>
+		</config-file>
+		<config-file parent="com.apple.developer.associated-domains" target="*/Entitlements-Debug.plist">
+			<array>
+				<string>applinks:$DEEPLINK_HOST</string>
+			</array>
+		</config-file>
+
 		<source-file src="src/ios/AppDelegate+IonicDeeplink.m" />
 		<header-file src="src/ios/IonicDeeplinkPlugin.h" />
 		<source-file src="src/ios/IonicDeeplinkPlugin.m" />
