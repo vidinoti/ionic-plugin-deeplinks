@@ -27,7 +27,7 @@ Thank you to the [Cordova Universal Links Plugin](https://github.com/nordnet/cor
 ## Installation
 
 ```bash
-cordova plugin add ionic-plugin-deeplinks
+cordova plugin add vidinoti-ionic-plugin-deeplinks
 --variable URL_SCHEME=myapp --variable DEEPLINK_SCHEME=https --variable DEEPLINK_HOST=example.com
 --variable ANDROID_PATH_PREFIX=/
 ```
